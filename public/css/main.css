@@ -1,0 +1,31 @@
+
+body {
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #58595b;
+    padding-top: 100px;
+}
+
+.navbar{
+	background: #ffffff;
+	font-family: lato;
+	font-size: 15px;
+}
+
+.navbar ul li a:hover {background: #fafafa;}
+
+#MainText{
+	font-size: 40px;
+}
+
+
+.row {
+	margin-bottom: 25px;
+	margin-top: 10px;
+
+}
+
+.container{
+
+}
