@@ -12,24 +12,11 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript"
-	src="http://viralpatel.net/blogs/demo/jquery/jquery.shorten.1.0.js"></script>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-	
-		$(".comment").shorten({
-			"showChars" : 410,
-			"moreText"	: "See More",
-			"lessText"	: "Less",
-		});	
-	});
-</script>
-<!-- Latest compiled and minified JavaScript -->
- 
-
+<style>
+	body{
+		
+	}
+</style>
 
 </head>
 
@@ -175,12 +162,12 @@
 							<div class="col-sm-12 comment">
 								TOTAL JOINT REPLACEMENT is one of the most consistently successful therapeutic measures in all of medicine and surgery today. Overall patient satisfaction with the relief of pain and enhanced mobility is, in general, extremely high.<br>
 
-								However as in all major surgical procedures, there are significant risks that patients will want to discuss carefully with their surgeon. Patients should ask their surgeon to explain any risks, or benefits, that will help them make an informed decision.<br>
+									However as in all major surgical procedures, there are significant risks that patients will want to discuss carefully with their surgeon. Patients should ask their surgeon to explain any risks, or benefits, that will help them make an informed decision.<br>
 
-								The following text explains the key points about total knee replacement surgery and hospital stay.<br>
+									The following text explains the key points about total knee replacement surgery and hospital stay.<br>
 
-								Once again, please keep in mind that procedures and protocols vary, sometimes widely, from surgeon to surgeon and hospital to hospital. Nevertheless, the goals of the process - to reduce pain and enhance mobility are substantially the same.<br>
-								We will be more than happy to answer your specific questions and explain how these procedures will be tailored to fit your personal condition and needs. 
+									Once again, please keep in mind that procedures and protocols vary, sometimes widely, from surgeon to surgeon and hospital to hospital. Nevertheless, the goals of the process - to reduce pain and enhance mobility are substantially the same.<br>
+									We will be more than happy to answer your specific questions and explain how these procedures will be tailored to fit your personal condition and needs. 
 							</div>
 							</div>
 						</p>
@@ -324,7 +311,6 @@
 </div>
 
 
-</body>	
 
 <!--footer-->
 <footer>
@@ -335,9 +321,24 @@
 
 		</div><!--End Container-->
 	
-
-
 </footer>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 
+<script type="text/javascript"
+	src="http://viralpatel.net/blogs/demo/jquery/jquery.shorten.1.0.js"></script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+	
+		$(".comment").shorten({
+			"showChars" : 410,
+			"moreText"	: "See More",
+			"lessText"	: "Less",
+		});	
+	});
+</script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+</body>	
 </html>
