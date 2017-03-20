@@ -78,6 +78,6 @@ Ortholliance::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 
-  config.assets.enabled = false
+  config.assets.enabled = true
   
 end
